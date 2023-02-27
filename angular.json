@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/teste202",
+            "outputPath": "dist/angular-projeto-1",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -69,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "teste202:build:production"
+              "browserTarget": "angular-projeto-1:build:production"
             },
             "development": {
-              "browserTarget": "teste202:build:development"
+              "browserTarget": "angular-projeto-1:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -80,7 +80,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "teste202:build"
+            "browserTarget": "angular-projeto-1:build"
           }
         },
         "test": {
